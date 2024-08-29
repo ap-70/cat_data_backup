@@ -1,10 +1,10 @@
 {
-    "name": "My plugin",
+    "name": "Cat Data Backup",
     "version": "0.0.1",
-    "description": "Description of my_plugin.",
-    "author_name": "Me",
-    "author_url": "https://mywebsite.me",
-    "plugin_url": "https://github.com/my_name/my_plugin",
+    "description": "Plugin that when the Cat starts saves a zipped copy of the 'data' folder in './cat/static/backup/' that can be recovered if necessary. To force another save just write:: ...save the cat's data.",
+    "author_name": "Aldo Pederzolli",
+    "author_url": "https://github.com/ap-70",
+    "plugin_url": "https://github.com/ap-70/cat_data_backup",
     "tags": "cat, template, example",
-    "thumb": "https://raw.githubusercontent.com/my_repo_path/my_plugin.png"
+    "thumb": "https://raw.githubusercontent.com/ap-70/cat_data_backup/data_backup.png"
 }

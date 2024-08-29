@@ -1,26 +1,17 @@
-# My plugin
+<h1 align="center" id="title">Cheshire Cat Data Backup</h1>
 
-[![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=383938&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
-[![Awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=Awesome+plugin&color=000000&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
-[![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=F4F4F5&style=for-the-badge&logo=cheshire_cat_black)](https://)
+<p id="description">This is a plugin that when the Cat starts saves a zipped copy of the 'data' folder in './cat/static/backup/' that can be recovered if necessary. To force another save just write:: ...save the cat's data.</p>
+  
+<h2>🧐 Plugins Settings</h2>
 
-Write here all the useful information about your plugin.
+Here're the settings you can change with this plugin:
 
-This repository is the template to automate the release of official Cheshire Cat AI plugins. 
+- max_num_backup: set the max numbers of backup to be preserved
 
-## Usage
+<h2>🛠️ Installation:</h2>
 
-1. Create a new repository clicking on the `Use this template` button.
-2. Clone your new repo directly in the Cat's `plugins` folder.
-3. Run the `setup.py` script:
-```bash
-python setup.py
-```
-The script will prompt you to write the name of your plugin and make an initial setup setting the name in the files.
+<p>1. Clone this repo and copy it on cat plugins folder</p>
+<p>2. Install from admin panel on the Cheshire Cat Web Admin</p>
 
-4. Start developing!
-
-> **Important**
-> A new release of your plugin is triggered every time you set a new `version` in the `plugin.json` file.
-> Please, remember to set it correctly every time you want to release an update.
-
+<h2>🛡️ License:</h2>
+This project is licensed under the GNU GENERAL PUBLIC LICENSE
