@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Cheshire Cat Data Backup</h1>
 
-<p id="description">This is a plugin that when the Cat starts saves a zipped copy of the 'data' folder in './cat/static/backup/' that can be recovered if necessary. To force another save just write:: ...save the cat's data.</p>
+<p id="description">This is a plugin that when the Cat starts saves a zipped copy of the 'data' folder in './cat/static/backup/' that can be recovered if necessary. To force another save just write:: ...save the cat's data. It currently creates one backup per day.</p>
   
 <h2>🧐 Plugins Settings</h2>
 
